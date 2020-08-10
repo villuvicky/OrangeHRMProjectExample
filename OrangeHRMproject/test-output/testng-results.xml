@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-03T20:24:51 IST" name="OrangeHRM suite" finished-at="2020-08-03T20:25:12 IST" duration-ms="20712">
+    <groups>
+    </groups>
+    <test started-at="2020-08-03T20:24:51 IST" name="test case 1" finished-at="2020-08-03T20:25:04 IST" duration-ms="12355">
+      <class name="test_cases.Pending_Leav_Check">
+        <test-method is-config="true" signature="LogIn()[pri:0, instance:test_cases.Pending_Leav_Check@1f3f4916]" started-at="2020-08-03T20:24:51 IST" name="LogIn" finished-at="2020-08-03T20:24:58 IST" duration-ms="6692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method signature="leavecheck()[pri:0, instance:test_cases.Pending_Leav_Check@1f3f4916]" started-at="2020-08-03T20:24:58 IST" name="leavecheck" finished-at="2020-08-03T20:25:01 IST" duration-ms="3105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leavecheck -->
+        <test-method is-config="true" signature="LogOut()[pri:0, instance:test_cases.Pending_Leav_Check@1f3f4916]" started-at="2020-08-03T20:25:01 IST" name="LogOut" finished-at="2020-08-03T20:25:04 IST" duration-ms="2468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+      </class> <!-- test_cases.Pending_Leav_Check -->
+    </test> <!-- test case 1 -->
+    <test started-at="2020-08-03T20:25:04 IST" name="test case 2" finished-at="2020-08-03T20:25:12 IST" duration-ms="8291">
+      <class name="test_cases.UserRoleStatus">
+        <test-method is-config="true" signature="LuanchBrowser()[pri:0, instance:test_cases.UserRoleStatus@769f71a9]" started-at="2020-08-03T20:24:41 IST" name="LuanchBrowser" finished-at="2020-08-03T20:24:51 IST" duration-ms="10266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LuanchBrowser -->
+        <test-method is-config="true" signature="LogIn()[pri:0, instance:test_cases.UserRoleStatus@769f71a9]" started-at="2020-08-03T20:25:04 IST" name="LogIn" finished-at="2020-08-03T20:25:06 IST" duration-ms="1986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method signature="checkuserrole()[pri:0, instance:test_cases.UserRoleStatus@769f71a9]" started-at="2020-08-03T20:25:06 IST" name="checkuserrole" finished-at="2020-08-03T20:25:10 IST" duration-ms="3898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkuserrole -->
+        <test-method is-config="true" signature="LogOut()[pri:0, instance:test_cases.UserRoleStatus@769f71a9]" started-at="2020-08-03T20:25:10 IST" name="LogOut" finished-at="2020-08-03T20:25:12 IST" duration-ms="2402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:test_cases.UserRoleStatus@769f71a9]" started-at="2020-08-03T20:25:12 IST" name="Close_Browser" finished-at="2020-08-03T20:25:13 IST" duration-ms="736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- test_cases.UserRoleStatus -->
+    </test> <!-- test case 2 -->
+  </suite> <!-- OrangeHRM suite -->
+</testng-results>

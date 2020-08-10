@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="OrangeHRM suite">
+	<test name="test case 1">
+		<classes>
+			<class name="test_cases.Pending_Leav_Check">
+			</class>
+		</classes>
+	</test>
+	<test name="test case 2">
+		<classes>
+			<class name="test_cases.UserRoleStatus">
+			</class>
+		</classes>
+	</test>
+</suite>
