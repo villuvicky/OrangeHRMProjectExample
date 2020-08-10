@@ -42,7 +42,7 @@ public class Login_Logout {
 		System.setProperty("webdriver.chrome.driver", location);
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
-		logger.info("Opening chrome");
+		logger.info("Opening the chrome");
 		driver.navigate().to(url);
 		logger.info("Orange HRM Login Page");
 	}
