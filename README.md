@@ -1,2 +1,2 @@
 # OrangeHRMProjectExample
-This one has orangeHRM page tutomation code
+This one has orangeHRM page automation code
